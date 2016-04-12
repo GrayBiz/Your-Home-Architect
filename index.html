@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-us" ng-app="yhaWeb">
+
+<head>
+    <title>Your Home Architect</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--        Linking Main Stylesheet     -->
+    <link rel="stylesheet" href="style-sheets/yha-mechanics.css" />
+    <link rel="stylesheet" href="yha.css" />
+
+    <!--        Loading Angular Via code.angular.org    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular-resource.min.js"></script>
+    <!--        Loading App Javascript Files    -->
+
+    <script src="yha-main-scripts.js"></script>
+
+</head>
+
+<body>
+    <div class="main-body">
+        <header>
+            <nav class="header">
+                <div class="container menu">
+                    <ul >
+                        <li><a href="#/">Home</a></li>
+                        <li><a href="#/about">About</a></li>
+                        <li><a href="#/philosophy">Philosophy</a></li>
+                        <li><a href="#/process">Process</a></li>
+                        <li><a href="#/blog">Blog</a></li>
+                        <li><a href="#/contact">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+
+        <div class="ng-view"></div>
+
+    </div>
+
+</body>
+
+</html>
